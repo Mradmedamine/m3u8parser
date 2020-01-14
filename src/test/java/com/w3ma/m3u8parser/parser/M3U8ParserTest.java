@@ -46,7 +46,7 @@ public class M3U8ParserTest {
 
     @Test
     public void parseTest2() {
-        final InputStream workingPlaylist = resourcesUtil.getInputStream(getClass(), "workingPlaylist2.m3u");
+        final InputStream workingPlaylist = resourcesUtil.getInputStream(getClass(), "workingPlaylist2.m3u8");
         assertNotNull(workingPlaylist);
         final M3U8Parser m3U8Parser = new M3U8Parser(workingPlaylist, M3U8ItemScanner.Encoding.UTF_8);
         try {
