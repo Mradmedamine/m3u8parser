@@ -16,12 +16,6 @@
 
 package com.w3ma.m3u8parser.data;
 
-import lombok.Data;
-
-/**
- * Created by Emanuele on 31/08/2016.
- */
-@Data
 public class ExtInfo {
 
     private String duration;

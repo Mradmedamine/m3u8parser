@@ -16,15 +16,9 @@
 
 package com.w3ma.m3u8parser.data;
 
-import lombok.Data;
-
 import java.util.Map;
 import java.util.Set;
 
-/**
- * Created by Emanuele on 31/08/2016.
- */
-@Data
 public class Playlist {
 
     private Map<String, Set<Track>> trackSetMap;
